@@ -1,0 +1,266 @@
+#body{
+  max-width: 100%;
+  min-height: 100vh !important;
+  min-width: 700px;
+  margin: 0px;
+}
+
+#corona{
+  max-width: 100%;
+  background-color: #222222;
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+/* header */
+#header{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+}
+
+#menu{
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: black;
+  padding: 20px 50px 30px 50px;
+}
+
+#logo_area a img{
+  width:102px;
+  height:32px;
+}
+
+#nav{
+  color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#nav ol{
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#nav ol li{
+  list-style-type:none;
+  font-size: 14px;
+}
+#nav ol li a{
+  text-decoration: none;
+  color:lightgray;
+}
+
+
+#header_option{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#header_option span{
+  color:white;
+  font-size: 12px;
+  white-space: pre;
+}
+
+#header_option a img{
+  width: 16px;
+  height: 16px;
+  margin-left: 20px;
+}
+
+#btn_user{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width:77px;
+  height:42px;
+  background-color: white;
+  border-radius: 20px;
+  border-width: 0px;
+  margin-left: 20px;
+}
+#btn_user:focus{
+  background: white;
+  outline: 0;
+}
+
+#user_option{
+  width:16px;
+  height:16px;
+}
+
+#user_profile{
+  width:30px;
+  height:30px;
+  margin-left: 10px;
+}
+
+#picture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+#picture img{
+  width: 95%;
+  height: auto;
+  max-width: 100%;
+}
+
+#header_bottom_message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  color:white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* Wrap */
+#wrap{
+  max-width: 100%;
+  background-color: white;
+  padding: 50px;
+}
+
+#travelNear span strong{
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+.travelNearContainer{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 20px;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+
+.travelNearItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.travelNearItem img{
+  width: 64px;
+  height:64px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.travelItemContents{
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.travelItemContents span{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#travelWhere{
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+#travelWhere span strong{
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+#travelWhereContainer{
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+  column-gap: 20px;
+}
+
+.travelWhereItem{
+  display: flex;
+  flex-direction: column;
+}
+
+.travelWhereItem img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.travelWhereItem span{
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+#shareYourWorld{
+  background-image: url("https://a0.muscache.com/im/pictures/c800f7ee-da2e-45f5-969a-65827cb63e81.jpg?im_w=720");
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+  padding: 60px 100px 60px 60px;
+  margin-top: 60px;
+}
+
+#shareContents{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  word-break: keep-all;
+}
+
+#shareContents span{
+  color:white;
+}
+
+#shareTitleSpan{
+  font-size: 30px;
+  white-space: pre-wrap;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#shareMsgSpan{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#shareContents button{
+  width: 140px;
+  background: white;
+  color:black;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+#shareYourWorld button:focus{
+  background: white;
+  outline: 0;
+}
